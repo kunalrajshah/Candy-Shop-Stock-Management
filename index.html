@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candy Shop Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="heading">
+    <h3>SHAH CANDY SHOP</h3>
+  </div>
+  <div class="main-box">
+    <div class="box">
+      <form action="" id="my-form">
+        <label for="price">Candy Name</label><br>
+        <input type="text" id="candy" style="background-color:rgba(255, 255, 255, 0.4);"><br><br>
+        <label for="dish">Description</label><br>
+        <input type="text" id="desc" style="background-color:rgba(255, 255, 255, 0.4);"><br><br>
+        <label for="dish">Price</label><br>
+        <input type="number" id="price" style="background-color:rgba(255, 255, 255, 0.4);"><br><br>
+        <label for="dish">Quantity</label><br>
+        <input type="number" id="quant" style="background-color:rgba(255, 255, 255, 0.4);"><br><br>
+        <input type="submit" id="button" value="Add Item"
+          style="color: white; text-align: center; background-color: rgb(233, 107, 61); font-size: 16px;">
+      </form>
+    </div><br>
+    <h2 id="orderhead">Your Cart</h2><br>
+  </div>
+  <div id="output">
+    <table style="border: 2px solid red;">
+      <tr>
+        <th> Candy Name</th>
+        <th> Description</th>
+        <th> Price</th>
+        <th> Quantity</th>
+        <th> Options</th>
+      </tr>
+      <tbody id="user-table"></tbody>
+    </table>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+  <script src="script with await.js"></script>
+</body>
+
+</html>

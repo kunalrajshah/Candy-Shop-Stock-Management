@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  background:linear-gradient(135deg, #b898d8, #7d96bc);
+}
+.box
+{
+  height:400px;
+  border: 2px solid  orange;
+  width:60%;
+  background-color:rgba(255, 255, 255, -0.6);
+  border-radius: 8px;
+  padding-left:2%;
+  padding-top: 2%;
+}
+.main-box
+{
+  margin-left:20%;
+  margin-top:3%;
+}
+.heading h3{
+  color:aqua;
+  text-align: center;
+  margin-left:5%;
+  padding:2%;
+  width: 20%;
+ }
+ 
+div.box label {
+  font-weight: bold;
+  color: #000000;
+  margin-top: 40%;
+  font-size:17px;
+}
+
+#candy,#desc,#price,#quant
+{
+  width:95%;
+  height:30px;
+  margin-top:1%
+}
+#button
+{
+  width: 96%;
+  margin-top: 2%;
+  height:30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+#orderhead{
+  margin-left:25%;
+  text-decoration: underline;
+}
+
+/* For Table */
+table{
+  border-collapse: collapse;
+  border: 2px solid rgb(141, 106, 106);
+  width: 48%;
+  margin-left:20%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  padding:5px;
+}
+
+
+/* CSS on Buy Button */
+/* After JS */
+.button1{
+  padding: 2%;
+  margin: 2%;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+/* For making Responsive Page */
+/* For screen sizes up to 768px (e.g., tablets) */
+@media (max-width: 768px) {
+  .main-box {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  table {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+
+/* For screen sizes up to 576px (e.g., smartphones) */
+@media (max-width: 576px) {
+  .main-box {
+    margin-left: 5%;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .heading h3 {
+    width: 100%;
+  }
+}
+
